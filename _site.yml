@@ -1,0 +1,9 @@
+name: "Fabio-website"
+output_dir: "."
+navbar:
+  title: "Fabio Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About Me"
+      href: about.html
