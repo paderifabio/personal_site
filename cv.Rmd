@@ -1,0 +1,169 @@
+---
+author: "[Fabio Paderi](https://www.linkedin.com/in/fabio-paderi-3a88a8b8/)"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+mail: "paderifabio@gmail.com"
+linkedin: "fabio-paderi-3a88a8b8"
+twitter: "fabio_paderi"
+github: "paderifabio"
+output:
+  epuRate::epurate:
+    toc: FALSE
+    code_folding: "hide"
+---
+```{r, include=FALSE}
+library(rmarkdown)
+library(epuRate)
+```
+<br><br> 
+
+- Luogo e data di nascita: Torino, 29/11/1991  
+
+- Cellulare: +393400580683  
+
+- Email: paderifabio@gmail.com - fabio@yecanalytica.com  
+
+- Web: [Linkedin](https://www.linkedin.com/in/fabio-paderi-3a88a8b8/) - [Github](https://github.com/paderifabio) - [RPubs](http://rpubs.com/FabioPaderi)   
+
+- Indirizzo:  Via Ascanio Sforza 69, Milano
+<br><br>
+
+> ISTRUZIONE E FORMAZIONE
+
+Dal 2016
+
+Dottorato di Ricerca in Cognitive Science and Social Psychology presso l’Università Cattolica di Milano
+
+2017/2018
+
+Data Science Specialization – Coursera, The Johns Hopkins University  
+Statistics with R Specialization – Coursera, Duke University
+
+2013/2015
+
+Laurea Magistrale in Psicologia del Lavoro e del Benessere nelle Organizzazioni presso l’Università degli Studi di Torino (110/110 e lode)
+
+2010/2013
+
+Laurea Triennale in Scienze e Tecniche Psicologiche presso l’Università degli Studi di Torino 
+<br><br>
+
+> ESPERIENZE LAVORATIVE
+
+Da Gennaio/Febbraio 2018, presso Yec Analytica, Milano:  
+**Co-Founder e Data Scientist**   
+Insieme ad un team multidisciplinare, progetto e sviluppo soluzioni innovative data-driven. Mi occupo principalmente della fase di preparazione dei dati, di data modeling e visualization
+<br><br>
+Da Marzo 2017 a Marzo 2018 presso la società Gruppo Yec, Milano:  
+**Data Scientist**    
+Mi sono occupato di implementare modelli previsionali e soluzioni analitiche per l’ottimizzazione dei processi di advertising. Attraverso algoritmi di clustering, mi occupavo di individuare profili di clienti e potenziali clienti per targhettizzare l’advertising e ottimizzare la spesa per le acquisizioni. Mi sono occupato inoltre dell’analisi del churn e della rilevazione di comportamenti anomali da parte degli utenti.
+<br><br>
+Da Gennaio 2018 a Febbraio 2018, presso la Salford University (Regno Unito):  
+**Visiting Research Fellow**  
+Ho lavorato con un team internazionale all’implementazione di un algoritmo per predire la partecipazione politica utilizzando social-media data.
+<br><br>
+Da Aprile 2016, presso l’Università Cattolica di Milano:    
+**Research Scientist - Data analyst**  
+Mi occupo principalmente di ricerca e analisi statistiche in psicologia sperimentale, psicologia cognitiva e neuroscienze. Ho presentato i risultati di alcune delle mie ricerche a convegni internazionali (ad esempio ad Atlanta, negli Stati Uniti, per il convegno SPSP 2018)
+Collaboro con l’Università come consulente nell’ambito dell’analisi dei bisogni organizzativi.
+<br><br>
+Da Aprile 2015 ad Aprile 2016, presso la Struttura Complessa Ricerca e Formazione dell’ASLTO3, Collegno (TO)  
+**Project Manager (tirocinio)**  
+Mi sono occupato di progettazione europea. In particolare del project management di un progetto Erasmus + ed un Horizon 2020. 
+<br><br>
+
+> COMPETENZE TECNICHE
+ 
+**Statistica**
+ 
+- Correlazione e Regressione (R, SPSS)  
+- Regressione logistica, multinomiale (R, SPSS)  
+- Modelli bayesiani (R, Stan, Jags)  
+- Analisi di serie temporali (R)  
+- Analisi della varianza e covarianza (R, SPSS)  
+- Modelli di equazioni strutturali (R, AMOS)
+- Path analysis (R, AMOS)  
+- Analisi fattoriale (R, SPSS)  
+- Cluster analysis (R)  
+- Analisi delle componenti principali (R, SPSS)  
+- Boostrapping (R, SPSS)  
+- Modelli multilevel (R)  
+- Moderazione e Mediazione (R, SPSS, AMOS)
+ 
+***
+
+**Ricerca**
+ 
+- Experiment design   
+- Costruzione e validazione di questionari  
+- Analisi longitudinali  
+- Pubblicazione e presentazione dei risultati  
+
+***
+
+**Data Science**  
+
+- Data collection (da file, database, API)  
+- Data wrangling (principalmente con dplyr, tidyr, lubridate)  
+- Data visualization (ggplot, plotly, leaflets, Microsoft Excel)  
+- Data pre-processing (imputazione missing, trasformazioni, creazione nuove features, riduzione delle dimensioni)  
+- Text analytics (principalmente con stringr e tidytex)  
+- Analisi esplorative  
+- Machine Learning e Predictive analytics, principalmente:  
+•	Linear/Logistic/Multinomial regression  
+•	Decision trees (cart/caret)  
+•	Random forests (randomforest/caret)  
+•	Neural Network (neuralnet/caret/keras)  
+•	Boosting (xgboost)  
+•	Clustering (kmeans/pam/DBSCAN/hclust)  
+- Model selection (holdout set/cross-validation)  
+- Dashboarding (shiny, shinydashboard, flexdashboard)  
+- Big-data analysis (Apache Spark, sparklyr)
+
+***
+
+**Tecnologie**
+ 
+- R (ottimo)  
+- SPSS (ottimo)  
+- Markdown (buono)  
+- SQL (buono)  
+- Keras/Tensorflow (buono)  
+- Pacchetto Office (ottimo)    
+- LaTex (buono)  
+- Python (base)  
+- HTML/CSS (base)  
+
+***
+
+**Lingue conosciute**  
+
+- Italiano (madrelingua)  
+- Inglese (livello C1)   
+
+<br><br> 
+
+> PUBBLICAZIONI   
+
+
+Manzi, C., Roccato, M., Paderi, F., Vitrotti, S., & Russo, S. (2017). _The social development of right-wing authoritarianism: The interaction between parental autonomy support and societal threat to safety_. Personality and Individual Differences, 109, 1-4. https://doi.org/10.1016/j.paid.2016.12.032  
+  
+  
+Paderi, F., Manzi, C., Castello, P. (2018). _Double jeopardy: The identity costs of age and gender stereotype threats on older female employees (Poster)_. In SPSP meeting Atlanta GA, 2018. https://osf.io/98s3v/  
+  
+  
+_Talenti senza età, le donne over50 e il lavoro. Prima ricerca italiana_ (2018) https://valored.it/talentisenzaeta.pdf  
+  
+  
+Paderi, F., Castello, P., Manzi, C., (in press). _Un’analisi sugli effetti degli stereotipi di genere ed età sul benessere delle donne over 50 in Italia_
+  
+  
+Manzi, C., Paderi, F., Benet-Martinez, V., Coen, S., (in press). _Age-Based Stereotype Threat and Negative Outcomes in the Work Place: Exploring the Mediation of Identity Integration and the Moderation of Gender and Employment Status_
+
+
+ 
+
+
+
+
+
+
