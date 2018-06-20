@@ -4,11 +4,11 @@ navbar:
   title: "Fabio Paderi"
   left:
     - text: "Home"
-      href: untitled.html
+      href: about.html
     - text: "Projects"     ##### the new
       href: projects.html  ##### stuff
-    - text: "About Me"
-      href: about.html
+    - text: "Curriculum vitae"
+      href: untitled.html
 output:
   html_document:
     theme: flatly
