@@ -1,19 +1,7 @@
 ---
-author: "[Fabio Paderi](https://www.linkedin.com/in/fabio-paderi-3a88a8b8/)"
-date: "`r format(Sys.time(), '%d %B %Y')`"
-mail: "paderifabio@gmail.com"
-linkedin: "fabio-paderi-3a88a8b8"
-twitter: "fabio_paderi"
-github: "paderifabio"
-output:
-  epuRate::epurate:
-    toc: FALSE
-    code_folding: "hide"
+title: "Curriculum vitae"
 ---
-```{r, include=FALSE}
-library(rmarkdown)
-library(epuRate)
-```
+
 <br><br> 
 
 - Luogo e data di nascita: Torino, 29/11/1991  
