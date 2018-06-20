@@ -3,8 +3,6 @@ output_dir: "."
 navbar:
   title: "Fabio Paderi"
   left:
-    - text: "Home"
-      href: about.html
     - text: "R pubs"     ##### the new
       href: projects.html  ##### stuff
     - text: "Curriculum vitae"
