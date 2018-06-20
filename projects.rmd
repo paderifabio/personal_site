@@ -1,16 +1,17 @@
 ---
-title: "Projects"
+title: "R tutorial"
 ---
 
-Sometimes I like to do projects and then post them on the internet for the whole world to benefit!
-here's some examples. 
 
 ## [Data Visualization con ggplot](https://rpubs.com/FabioPaderi/ggplot2PIL)
 
-- A presentation of some visualization with ggplot.
-- Includes all the code.
+- Una presentazione che include alcuni grafici eseguiti con ggplot2
 
 ## [Heatmap examples](https://rpubs.com/FabioPaderi/331039)
 
-- Heatmaps examples
-- With code!
+- Esempi di Heatmap con R
+
+
+## [Spark e R con sparklyr](http://rpubs.com/FabioPaderi/intro-sparklyr)  
+
+- sparklyr, interfaccia per utilizzare Spark da R
