@@ -1,5 +1,16 @@
 ---
-title: "Fabio Paderi"
+title: "Dove trovarmi:"
 ---
 
-Hello, World!
+[![LIn](./immagini/linkedin.png)](https://www.linkedin.com/in/fabio-paderi-3a88a8b8/)
+
+<br><br>
+
+[![github](./immagini/github.png)](https://github.com/paderifabio)
+
+<br><br>
+
+[![rpub](./immagini/rpub.png)](http://rpubs.com/FabioPaderi)
+
+<br><br>
+

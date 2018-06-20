@@ -5,7 +5,7 @@ navbar:
   left:
     - text: "Home"
       href: about.html
-    - text: "Projects"     ##### the new
+    - text: "R pubs"     ##### the new
       href: projects.html  ##### stuff
     - text: "Curriculum vitae"
       href: cv.html

@@ -2,16 +2,34 @@
 title: "R tutorial"
 ---
 
+<br><br>  
 
 ## [Data Visualization con ggplot](https://rpubs.com/FabioPaderi/ggplot2PIL)
 
 - Una presentazione che include alcuni grafici eseguiti con ggplot2
+<br><br>  
 
 ## [Heatmap examples](https://rpubs.com/FabioPaderi/331039)
 
 - Esempi di Heatmap con R
-
+<br><br>  
 
 ## [Spark e R con sparklyr](http://rpubs.com/FabioPaderi/intro-sparklyr)  
 
-- sparklyr, interfaccia per utilizzare Spark da R
+- sparklyr, interfaccia per utilizzare Spark da R 
+<br><br>  
+
+## [leaflet](http://rpubs.com/FabioPaderi/popTorino)  
+
+- mappe con leaflet
+<br><br>  
+
+## [Plotly](http://rpubs.com/FabioPaderi/plotly)  
+
+- Introduzione alla data visualization con Plotly
+<br><br>  
+
+## [Wordcloud](http://rpubs.com/FabioPaderi/simplewordcloud)  
+
+- come fare dei Wordcloud con R 
+
