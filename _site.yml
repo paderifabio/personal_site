@@ -4,7 +4,7 @@ navbar:
   title: "Fabio Website"
   left:
     - text: "Home"
-      href: index.html
+      href: cv.html
     - text: "Projects"     ##### the new
       href: projects.html  ##### stuff
     - text: "About Me"
