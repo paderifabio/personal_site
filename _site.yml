@@ -7,6 +7,8 @@ navbar:
       menu:
         - text: "Introduction to Spark and R" 
           href: R stuff/sparklyr.html
+        - text: "Apriori algorithm" 
+          href: R stuff/apriori.html
         - text: "Flexdashboard example" 
           href: R stuff/text_analytics.html
         - text: "Heatmap examples" 
