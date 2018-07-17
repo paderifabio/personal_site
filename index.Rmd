@@ -1,5 +1,5 @@
 ---
-title: "Dove trovarmi:"
+title: "Where to find me:"
 ---
 
 [![LIn](./immagini/linkedin.png)](https://www.linkedin.com/in/fabio-paderi-3a88a8b8/)

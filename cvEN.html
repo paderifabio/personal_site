@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Fabio Paderi</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Some R stuff
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="R stuff/text_analytics.html">Flexdashboard example</a>
+    </li>
+    <li>
+      <a href="R stuff/heatmaps.html">Heatmap examples</a>
+    </li>
+    <li>
+      <a href="R stuff/plotly.html">Basic plotly</a>
+    </li>
+    <li>
+      <a href="R stuff/pil_with_ggplot.html">Visualizing GDP with ggplot2</a>
+    </li>
+    <li>
+      <a href="R stuff/bayesian_regression.html">Basic bayesian regression</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Curriculum vitae
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="cv.html">Italiano</a>
+    </li>
+    <li>
+      <a href="cvEN.html">English</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p><br><br></p>
+<blockquote>
+<p>EDUCATION</p>
+</blockquote>
+<p>From 2016</p>
+<p>PhD candidate in Cognitive Science and Social Psychology at the Catholic University of Milan</p>
+<p>2017/2018</p>
+<p>Data Science Specialization – Coursera, The Johns Hopkins University Statistics with R Specialization – Coursera, Duke University</p>
+<p>2013/2015</p>
+<p>Master’s Degree in Work and Organizational Psychology at University of Turin (110/110 cum Laude)</p>
+<p>2010/2013</p>
+<p>Bachelor’s Degree in Sciences and Psychological Techniques at University of Turin <br><br></p>
+<blockquote>
+<p>WORK EXPERIENCES</p>
+</blockquote>
+<p>From January 2018, at Yec Analytica, Milan, Italy:<br />
+<strong>Co-Founder e Data Scientist</strong><br />
+Together with a multidisciplinary team, I work at the design and implementation of innovative technological solutions with a data-driven approach. I mainly deal with data manipulation, data modeling and data visualization. <br><br> From March 2017, at Gruppo Yec, Milan, Italy:<br />
+<strong>Data Scientist</strong><br />
+I was involved in implementing models and analytical solutions to optimize advertising processes. Through clustering algorithms, I worked on identifying customer profiles and potential customers to target advertising and optimize acquisition spending. I also dealt with the analysis of churn rate and the detection of abnormal behavior by users of ecommerce websites. <br><br> From January 2018 to February 2018, at the Salford University, Salford, United Kingdom:<br />
+<strong>Visiting Research Fellow</strong><br />
+I worked with an international team at the implementation of an algorithm to predict political participation using data from social media. <br><br> From April 2016, at the Catholic University of Milan, Milan, Italy:<br />
+<strong>Research Scientist - Data analyst</strong><br />
+I deal mainly with the research design and statistical analysis in experimental psychology, cognitive psychology and neuroscience. I presented the results of some researches at international conferences (for example, in the United States, for the SPSP 2018 conference) I worked with the University as an external data analysis consultant. <br><br> From April 2015 to April 2016, at the Complex Structure of Research and Training of ASL TO3, Collegno, Italy<br />
+<strong>Project Manager (internship)</strong><br />
+I worked on European Projects. In particular the project management of an Erasmus + project and a Horizon 2020.<br />
+<br><br></p>
+<blockquote>
+<p>TECHNICAL SKILLS</p>
+</blockquote>
+<p><strong>Statistics</strong></p>
+<ul>
+<li>Correlation and linear regression (R, SPSS)<br />
+</li>
+<li>Logistic and multinomial regression (R, SPSS)<br />
+</li>
+<li>Bayesian models (R, Stan, Jags)<br />
+</li>
+<li>Time series analysis (R)<br />
+</li>
+<li>Analysis of variance and covariance (R, SPSS)<br />
+</li>
+<li>Structural Equation Modeling (R, AMOS)</li>
+<li>Path analysis (R, AMOS)<br />
+</li>
+<li>Factorial analysis (R, SPSS)<br />
+</li>
+<li>Cluster analysis (R)<br />
+</li>
+<li>Principal component analysis (R, SPSS)<br />
+</li>
+<li>Boostrapping (R, SPSS)<br />
+</li>
+<li>Multilevel models (R)<br />
+</li>
+<li>Moderation and mediation models (R, SPSS, AMOS)</li>
+</ul>
+<hr />
+<p><strong>Research</strong></p>
+<ul>
+<li>Experiment design<br />
+</li>
+<li>Design and validation of questionnaires<br />
+</li>
+<li>Longitudinal analysis<br />
+</li>
+<li>Publication and presentation of results</li>
+</ul>
+<hr />
+<p><strong>Data Science</strong></p>
+<ul>
+<li>Data collection (from files, database, API)<br />
+</li>
+<li>Data wrangling (mainly with dplyr, tidyr, lubridate)<br />
+</li>
+<li>Data visualization (ggplot, plotly, leaflets, Microsoft Excel)<br />
+</li>
+<li>Data pre-processing (missing imputation, transformations, features engeneering, dimensionality reduction)<br />
+</li>
+<li>Text analytics (mainly with stringr e tidytex)<br />
+</li>
+<li>Machine Learning and Predictive analytics, mainly:<br />
+• Linear/Logistic/Multinomial regression<br />
+• Decision trees (cart/caret)<br />
+• Random forests (randomforest/caret)<br />
+• Neural Network (neuralnet/caret/keras)<br />
+• Boosting (xgboost)<br />
+• Clustering (kmeans/pam/DBSCAN/hclust)<br />
+</li>
+<li>Model selection (holdout set/cross-validation)<br />
+</li>
+<li>Dashboarding (shiny, shinydashboard, flexdashboard)<br />
+</li>
+<li>Big-data analysis (Apache Spark, sparklyr)</li>
+</ul>
+<hr />
+<p><strong>Tecnologies</strong></p>
+<ul>
+<li>R (advanced)<br />
+</li>
+<li>SPSS (advanced)<br />
+</li>
+<li>AMOS (advanced)</li>
+<li>Office suite (advanced)</li>
+<li>Markdown (intermediate)<br />
+</li>
+<li>SQL (intermediate)<br />
+</li>
+<li>Keras/Tensorflow (intermediate)<br />
+</li>
+<li>LaTex (intermediate)<br />
+</li>
+<li>Python (basic)<br />
+</li>
+<li>HTML/CSS (basic)</li>
+</ul>
+<hr />
+<p><strong>Languages</strong></p>
+<ul>
+<li>Italian (mothertongue)<br />
+</li>
+<li>English (C1 level)</li>
+</ul>
+<p><br><br></p>
+<blockquote>
+<p>PUBBLICATIONS</p>
+</blockquote>
+<p>Manzi, C., Roccato, M., Paderi, F., Vitrotti, S., &amp; Russo, S. (2017). <em>The social development of right-wing authoritarianism: The interaction between parental autonomy support and societal threat to safety</em>. Personality and Individual Differences, 109, 1-4. <a href="https://doi.org/10.1016/j.paid.2016.12.032" class="uri">https://doi.org/10.1016/j.paid.2016.12.032</a></p>
+<p>Paderi, F., Manzi, C., Castello, P. (2018). <em>Double jeopardy: The identity costs of age and gender stereotype threats on older female employees (Poster)</em>. In SPSP meeting Atlanta GA, 2018. <a href="https://osf.io/98s3v/" class="uri">https://osf.io/98s3v/</a></p>
+<p>Talenti senza età, le donne over50 e il lavoro. Prima ricerca italiana (2018) <a href="https://valored.it/talentisenzaeta.pdf" class="uri">https://valored.it/talentisenzaeta.pdf</a></p>
+<p>Paderi, F., Castello, P., Manzi, C., (in press). <em>Un’analisi sugli effetti degli stereotipi di genere ed età sul benessere delle donne over 50 in Italia</em></p>
+<p>Manzi, C., Paderi, F., Benet-Martinez, V., Coen, S., (in press). <em>Age-Based Stereotype Threat and Negative Outcomes in the Work Place: Exploring the Mediation of Identity Integration and the Moderation of Gender and Employment Status</em></p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

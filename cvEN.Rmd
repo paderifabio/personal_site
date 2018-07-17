@@ -1,0 +1,144 @@
+
+<br><br> 
+
+
+> EDUCATION
+
+From 2016  
+
+PhD candidate in Cognitive Science and Social Psychology at the Catholic University of Milan
+
+2017/2018  
+
+Data Science Specialization – Coursera, The Johns Hopkins University
+Statistics with R Specialization – Coursera, Duke University
+
+2013/2015  
+
+Master’s Degree in Work and Organizational Psychology at University of Turin (110/110 cum Laude)
+
+2010/2013  
+
+Bachelor’s Degree in Sciences and Psychological Techniques at University of Turin
+<br><br>
+
+> WORK EXPERIENCES
+
+From January 2018, at Yec Analytica, Milan, Italy:  
+**Co-Founder e Data Scientist**   
+Together with a multidisciplinary team, I work at the design and implementation of innovative technological solutions with a data-driven approach. I mainly deal with data manipulation, data modeling and data visualization.
+<br><br>
+From March 2017, at Gruppo Yec, Milan, Italy:  
+**Data Scientist**    
+I was involved in implementing models and analytical solutions to optimize advertising processes. Through clustering algorithms, I worked on identifying customer profiles and potential customers to target advertising and optimize acquisition spending. I also dealt with the analysis of churn rate and the detection of abnormal behavior by users of ecommerce websites.
+<br><br>
+From January 2018 to February 2018, at the Salford University, Salford, United Kingdom:  
+**Visiting Research Fellow**  
+I worked with an international team at the implementation of an algorithm to predict political participation using data from social media.
+<br><br>
+From April 2016, at the Catholic University of Milan, Milan, Italy:   
+**Research Scientist - Data analyst**  
+I deal mainly with the research design and statistical analysis in experimental psychology, cognitive psychology and neuroscience. I presented the results of some researches at international conferences (for example, in the United States, for the SPSP 2018 conference)
+I worked with the University as an external data analysis consultant.
+<br><br>
+From April 2015 to April 2016, at the Complex Structure of Research and Training of ASL TO3, Collegno, Italy  
+**Project Manager (internship)**  
+I worked on European Projects. In particular the project management of an Erasmus + project and a Horizon 2020.  
+<br><br>
+
+> TECHNICAL SKILLS
+ 
+**Statistics**
+ 
+- Correlation and linear regression  (R, SPSS)  
+- Logistic and multinomial regression  (R, SPSS)  
+- Bayesian models  (R, Stan, Jags)  
+- Time series analysis (R)  
+- Analysis of variance and covariance (R, SPSS)  
+- Structural Equation Modeling (R, AMOS)
+- Path analysis (R, AMOS)  
+- Factorial analysis (R, SPSS)  
+- Cluster analysis (R)  
+- Principal component analysis (R, SPSS)  
+- Boostrapping (R, SPSS)  
+- Multilevel models (R)  
+- Moderation and mediation models (R, SPSS, AMOS)
+ 
+***
+
+**Research**
+ 
+- Experiment design   
+- Design and validation of questionnaires  
+- Longitudinal analysis  
+- Publication and presentation of results  
+
+***
+
+**Data Science**  
+
+- Data collection (from files, database, API)  
+- Data wrangling (mainly with dplyr, tidyr, lubridate)  
+- Data visualization (ggplot, plotly, leaflets, Microsoft Excel)  
+- Data pre-processing (missing imputation, transformations, features engeneering, dimensionality reduction)  
+- Text analytics (mainly with stringr e tidytex)  
+- Machine Learning and Predictive analytics, mainly:  
+•	Linear/Logistic/Multinomial regression  
+•	Decision trees (cart/caret)  
+•	Random forests (randomforest/caret)  
+•	Neural Network (neuralnet/caret/keras)  
+•	Boosting (xgboost)  
+•	Clustering (kmeans/pam/DBSCAN/hclust)  
+- Model selection (holdout set/cross-validation)  
+- Dashboarding (shiny, shinydashboard, flexdashboard)  
+- Big-data analysis (Apache Spark, sparklyr)
+
+***
+
+**Tecnologies**
+ 
+- R (advanced)  
+- SPSS (advanced)  
+- AMOS (advanced)
+- Office suite (advanced) 
+- Markdown (intermediate)  
+- SQL (intermediate)  
+- Keras/Tensorflow (intermediate)  
+- LaTex (intermediate)  
+- Python (basic)  
+- HTML/CSS (basic)  
+
+***
+
+**Languages**  
+
+- Italian (mothertongue)  
+- English (C1 level)   
+
+<br><br> 
+
+> PUBBLICATIONS  
+
+
+Manzi, C., Roccato, M., Paderi, F., Vitrotti, S., & Russo, S. (2017). _The social development of right-wing authoritarianism: The interaction between parental autonomy support and societal threat to safety_. Personality and Individual Differences, 109, 1-4. https://doi.org/10.1016/j.paid.2016.12.032  
+  
+  
+Paderi, F., Manzi, C., Castello, P. (2018). _Double jeopardy: The identity costs of age and gender stereotype threats on older female employees (Poster)_. In SPSP meeting Atlanta GA, 2018. https://osf.io/98s3v/  
+  
+  
+Talenti senza età, le donne over50 e il lavoro. Prima ricerca italiana (2018) https://valored.it/talentisenzaeta.pdf  
+  
+  
+Paderi, F., Castello, P., Manzi, C., (in press). _Un’analisi sugli effetti degli stereotipi di genere ed età sul benessere delle donne over 50 in Italia_
+  
+  
+Manzi, C., Paderi, F., Benet-Martinez, V., Coen, S., (in press). _Age-Based Stereotype Threat and Negative Outcomes in the Work Place: Exploring the Mediation of Identity Integration and the Moderation of Gender and Employment Status_
+
+
+ 
+
+
+
+
+
+

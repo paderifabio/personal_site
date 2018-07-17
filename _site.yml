@@ -3,11 +3,28 @@ output_dir: "."
 navbar:
   title: "Fabio Paderi"
   left:
-    - text: "R pubs"     ##### the new
-      href: projects.html  ##### stuff
+    - text: "Some R stuff"  
+      menu:
+        - text: "Flexdashboard example" 
+          href: R stuff/text_analytics.html
+        - text: "Heatmap examples" 
+          href: R stuff/heatmaps.html 
+        - text: "Basic plotly" 
+          href: R stuff/plotly.html                
+        - text: "Visualizing GDP with ggplot2" 
+          href: R stuff/pil_with_ggplot.html
+        - text: "Basic bayesian regression" 
+          href: R stuff/bayesian_regression.html
     - text: "Curriculum vitae"
-      href: cv.html
+      menu:
+        - text: "Italiano"
+          href: cv.html
+        - text: "English"
+          href: cvEN.html
 output:
   html_document:
     theme: flatly
     css: style.css
+
+
+
